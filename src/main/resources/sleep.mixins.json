@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.sleep.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "sleep.refmap.json",
+  "mixins": [
+    "BedBlockMixin",
+    "DimensionTypeMixin",
+    "LivingMixin",
+    "ServerPlayerMixin",
+    "StateHolderMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
